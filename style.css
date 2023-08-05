@@ -1,0 +1,242 @@
+/*-----------------------minimum screens---------------*/
+@media only screen and (min-width: 375px) and (max-width:699px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .print-area {
+        width: 80vw;
+    }
+
+    .print-area .header {
+        width: 100vw;
+        height: 7vh;
+        background-color: rgb(31, 31, 44);
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .header img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        border: 5px solid white;
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    .header-text {
+        color: white;
+    }
+
+    .header-text h1 {
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .header-text p {
+        font-size: 7px;
+        margin-left: 10px;
+        color: lightgrey;
+    }
+
+    .about-me{
+        width: 80vw;
+        box-shadow: 3px 3px 10px gray;
+        background-color: lightgray;
+    }
+    .about-me h1{
+        font-size: 10px ;
+        padding-left: 10px;
+        padding-top: 3px;
+    }
+
+    .about-me p{
+        font-size: 4px;
+        padding-left: 5px;
+        padding-bottom: 5px;
+        color: rgb(59, 57, 57);
+    }
+
+}
+
+/*-----------------------large screens---------------*/
+@media only screen and (min-width: 1100px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .print-area {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .print-area .header {
+        width: 100%;
+        height: 150px;
+        background-color: rgb(31, 31, 44);
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .header img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        left: 70px;
+        border: 5px solid white;
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    .header-text {
+        color: white;
+        width: 60%;
+        margin-left: auto;
+    }
+
+    .header-text h1 {
+        font-size: 80px;
+        font-weight: normal;
+    }
+
+    .header-text p {
+        font-size: 20px;
+        color: lightgrey;
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left-area {
+        width: 30%;
+        background-color: lightgray;
+        text-align: center;
+    }
+
+    .left-area .contact {
+        margin-top: 130Px;
+    }
+
+    .contact h4 {
+        font-size: 30px;
+        font-weight: normal;
+        margin: 30px;
+    }
+
+    .contact h5 {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    .contact p {
+        font-size: 17px;
+        margin: 10px;
+    }
+
+    .skills{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+    }
+
+    .front-end{
+        margin-left: 20px;
+    }
+    .other{
+        margin-left: 40px;
+    }
+    .skills p{
+        margin: 20px;
+    }
+
+    .lang{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .lang p{
+        margin: 10px;
+    }
+
+    .right-area {
+        width: 70%;
+        padding: 50px;
+    }
+
+    
+    .about-me{
+        box-shadow: 3px 3px 10px gray;
+        background-color: lightgray;
+    }
+    .about-me h1{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .about-me p{
+        padding-left: 20px;
+        padding-bottom: 20px;
+        color: rgb(59, 57, 57);
+    }
+    
+    .education{
+        box-shadow: 3px 3px 10px gray;
+        background-color: lightgray;
+        margin-top: 30px;
+    }
+    .education h1{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .education p{
+        padding-left: 20px;
+        padding-bottom: 20px;
+        color: rgb(59, 57, 57);
+    }
+    
+    .experince{
+        box-shadow: 3px 3px 10px gray;
+        background-color: lightgray;
+        margin-top: 30px;
+    }
+    .experince h1{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .experince h3{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .experince p{
+        padding-left: 20px;
+        padding-bottom: 20px;
+        color: rgb(59, 57, 57);
+    }
+
+    .nav-bar{
+        box-shadow: 3px 3px 10px gray;
+        background-color: lightgray;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .nav-bar a{
+        margin: 20px;
+    }
+
+}
