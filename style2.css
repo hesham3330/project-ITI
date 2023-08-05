@@ -1,0 +1,459 @@
+/*-----------------------minimum screens---------------*/
+@media only screen and (min-width: 375px) and (max-width:699px){
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        background-color: azure;
+
+    }
+
+    #h1 {
+        margin: 5vh;
+        display: block;
+    }
+
+    .nav-bar {
+        box-shadow: 3px 3px 10px gray;
+        background-color: lightgray;
+        display: flex;
+        position: absolute;
+        top: 5vh;
+        left: 80vw;
+    }
+
+    .nav-bar a {
+        margin: 20px;
+    }
+
+    .main {
+        width: 100vw;
+        height: 95vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-areas:
+            "img-1"
+            "img-2"
+            "img-3"
+            "img-4"
+            "img-5"
+            "img-6"
+            "img-7"
+            "img-8"
+            "img-9"
+        ;
+        gap: 1vh;
+    }
+
+    #img-1 {
+        grid-area: img-1;
+    }
+
+    #img-1 {
+        grid-area: img-2;
+    }
+
+    #img-1 {
+        grid-area: img-3;
+    }
+
+    #img-1 {
+        grid-area: img-4;
+    }
+
+    #img-1 {
+        grid-area: img-5;
+    }
+
+    #img-1 {
+        grid-area: img-6;
+    }
+
+    #img-1 {
+        grid-area: img-7;
+    }
+
+    #img-1 {
+        grid-area: img-8;
+    }
+
+    #img-1 {
+        grid-area: img-9;
+    }
+
+    #img1 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img1:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img2 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img2:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img3 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img3:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img4 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img4:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img5 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img5:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img6 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img6:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img7 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img7:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img8 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img8:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img9 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img9:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+}
+/*-----------------------large screens---------------*/
+@media only screen and (min-width: 1100px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        background-color: azure;
+
+    }
+
+    #h1 {
+        margin: 5vh;
+        display: block;
+    }
+
+    .nav-bar {
+        box-shadow: 3px 3px 10px gray;
+        background-color: lightgray;
+        display: flex;
+        position: absolute;
+        top: 5vh;
+        left: 80vw;
+    }
+
+    .nav-bar a {
+        margin: 20px;
+    }
+
+    .main {
+        width: 100vw;
+        height: 95vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "img-1"
+            "img-2"
+            "img-3"
+            "img-4"
+            "img-5"
+            "img-6"
+            "img-7"
+            "img-8"
+            "img-9"
+        ;
+        gap: 1vh;
+    }
+
+    #img-1 {
+        grid-area: img-1;
+    }
+
+    #img-1 {
+        grid-area: img-2;
+    }
+
+    #img-1 {
+        grid-area: img-3;
+    }
+
+    #img-1 {
+        grid-area: img-4;
+    }
+
+    #img-1 {
+        grid-area: img-5;
+    }
+
+    #img-1 {
+        grid-area: img-6;
+    }
+
+    #img-1 {
+        grid-area: img-7;
+    }
+
+    #img-1 {
+        grid-area: img-8;
+    }
+
+    #img-1 {
+        grid-area: img-9;
+    }
+
+    #img1 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img1:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img2 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img2:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img3 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img3:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img4 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img4:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img5 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img5:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img6 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img6:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img7 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img7:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img8 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img8:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+
+    #img9 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 40%;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(100%);
+    }
+
+    #img9:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px gray;
+    }
+}
