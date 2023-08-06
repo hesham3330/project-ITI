@@ -1,5 +1,5 @@
 /*-----------------------minimum screens---------------*/
-@media only screen and (min-width: 390px) and (max-width:699px){
+@media only screen and (min-width: 375px) and (max-width:699px){
     * {
         margin: 0;
         padding: 0;
