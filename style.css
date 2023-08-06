@@ -7,25 +7,26 @@
     }
     .print-area {
         width: 80vw;
+        height: 140vh;
     }
 
     .print-area .header {
-        width: 23vw;
-        height: 40px;
+        width: 90vw;
+        height: 80px;
         background-color: rgb(31, 31, 44);
         display: flex;
         align-items: center;
         position: relative;
-        margin-left: 2px;
+        margin-left: 10px;
     }
 
     .header img {
-        width: 30px;
-        height: 30px;
+        width: 70px;
+        height: 70px;
         border-radius: 50%;
         position: absolute;
         top: 7px;
-        left: 55px;
+        left: 250px;
         border: 5px solid white;
         box-shadow: 3px 3px 10px gray;
     }
@@ -35,98 +36,102 @@
     }
 
     .header-text h1 {
-        margin-top: 10px;
-        margin-left: 10px;
-        font-size: 7px;
+        margin-top: 5px;
+        margin-left: 20px;
+        font-size: 20px;
     }
 
     .header-text p {
-        font-size: 7px;
+        font-size: 15px;
         margin-left: 10px;
         color: lightgrey;
     }
 
     .about-me{
-        width: 23vw;
+        width: 90vw;
+        margin-left: 10px;
         box-shadow: 3px 3px 10px gray;
         background-color: lightgray;
         position: absolute;
-        top: 45px;
+        top: 90px;
         left: 2px;
     }
     .about-me h1{
-        font-size: 10px ;
+        font-size: 20px ;
         padding-left: 10px;
         padding-top: 3px;
     }
 
     .about-me p{
-        font-size: 4px;
+        font-size: 10px;
         padding-left: 5px;
         padding-bottom: 5px;
         color: rgb(59, 57, 57);
     }
     .education{
-        width: 23vw;
+        width: 90vw;
+        margin-left: 10px;
         box-shadow: 3px 3px 10px gray;
         background-color: lightgray;
         margin-top: 10px;
         position: absolute;
-        top: 130px;
+        top: 200px;
         left: 2px;
     }
     .education h1{
-        font-size: 10px ;
+        font-size: 20px ;
         padding-left: 10px;
         padding-top: 3px;
     }
 
     .education p{
-        font-size: 4px;
+        font-size: 10px;
         padding-left: 5px;
         padding-bottom: 5px;
         color: rgb(59, 57, 57);
     }
 
     .experince{
-        width: 23vw;
+        width: 90vw;
+        margin-left: 10px;
         box-shadow: 3px 3px 10px gray;
         background-color: lightgray;
         margin-top: 10px;
         position: absolute;
-        top: 175px;
+        top: 270px;
         left: 2px;
     }
     .experince h1{
-        font-size: 10px ;
+        font-size: 20px ;
         padding-left: 10px;
         padding-top: 3px;
     }
     .experince h3{
-        font-size: 5px;
+        font-size: 15px;
         padding-left: 10px;
         padding-top: 3px;
     }
 
     .experince p{
-        font-size: 4px;
+        font-size: 10px;
         padding-left: 5px;
         padding-bottom: 5px;
         color: rgb(59, 57, 57);
     }
 
     .experince a{
-        font-size: 5px;
+        font-size: 10px;
         text-decoration: none;
 
     }
 
  
     .left-area {
-        width: 23vw;
+        width: 90vw;
+        margin-left: 10px;
         background-color: lightgray;
         position: absolute;
-        top: 300px;
+        top: 450px;
         left: 2px;
     }
 
@@ -136,18 +141,18 @@
     }
 
     .contact h4 {
-        font-size: 7px;
+        font-size: 20px;
         margin: 5px;
         
     }
 
     .contact h5 {
-        font-size: 7px;
+        font-size: 15px;
         margin: 5px;
     }
 
     .contact p {
-        font-size: 4px;
+        font-size: 10px;
         margin: 5px;
     }
 
@@ -157,23 +162,23 @@
     }
     #skills{
         margin: 10px;
-        font-size: 7px;
+        font-size: 15px;
     }
 
     .front-end{
         margin-left: 5px;
     }
     .front-end h2{
-        font-size: 7px;
+        font-size: 15px;
     }
     .other{
         margin-left: 5px;
     }
     .other h2{
-        font-size: 7px;
+        font-size: 15px;
     }
     .skills p{
-        font-size: 4px;
+        font-size: 10px;
         margin: 2px;
     }
 
@@ -182,28 +187,29 @@
     }
     .lang h1{
         margin: 5px;
-        font-size: 7px;
+        font-size: 15px;
     }
 
     .lang p{
         margin: 5px;
-        font-size: 4px;
+        font-size: 10px;
         margin: 2px;
     }
     .nav-bar{
-        width: 23vw;
+        width: 90vw;
+        margin-left: 10px;
         box-shadow: 3px 3px 10px gray;
         background-color: lightgray;
         display: flex;
         margin-top: 10px;
         position: absolute;
-        top: 510px;
+        top: 780px;
         left: 2px;
     }
 
     .nav-bar a{
         text-decoration: none;
-        font-size: 5px;
+        font-size: 20px;
         margin: 7px;
     }
 }
